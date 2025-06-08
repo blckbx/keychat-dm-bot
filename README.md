@@ -76,6 +76,10 @@ Event ID: 0123456789abcdef...
 ```sh
 cargo run --release -- "gm nostr!"
 ```
+or
+```sh
+./keychat-dm-bot "gm nostr!"
+```
 
 
 ---
@@ -108,16 +112,3 @@ MIT
 
 - [nostr-sdk](https://github.com/rust-nostr/nostr-sdk)
 - Inspired by the Nostr protocol and NIP-17/NIP-44 standards
-
----
-
-> For blockchain and secure messaging enthusiasts building with Rust and Nostr[^1][^2][^3].
-
-<div style="text-align: center">⁂</div>
-
-[^1]: programming.blockchain_development
-
-[^2]: programming.blockchain
-
-[^3]: programming.rust
-
