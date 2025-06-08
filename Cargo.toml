@@ -1,0 +1,9 @@
+[package]
+name = "nostr-dm-sender"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nostr-sdk = { version = "0.35.0", features = ["nip59"] }
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15"
