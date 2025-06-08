@@ -78,7 +78,7 @@ cargo run --release -- "gm nostr!"
 ```
 or
 ```sh
-./keychat-dm-bot "gm nostr!"
+./target/release/keychat-dm-bot "gm nostr!"
 ```
 
 
