@@ -4,7 +4,7 @@ use dotenv;
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    // 1. Get command line arguments
+    // Get command line arguments
     let args: Vec<String> = std::env::args().collect();
     
     // Check if message argument is provided
